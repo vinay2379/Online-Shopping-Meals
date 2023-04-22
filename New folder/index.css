@@ -1,0 +1,125 @@
+.navbar{
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(197, 24, 61);
+   }
+      
+    
+     ul{
+        display: flex;
+        position: relative;
+        margin-left: 5px;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+    .con img{
+        clip-path: circle();
+        width: 200px;
+        height: 90px;
+    }
+    .con{
+        display: flex;
+        position: relative;
+        margin-left: 5px;
+      
+        
+    
+    }
+    ul a{
+        margin-left: 50px;
+        color: white;
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+   
+    .header::before {
+        content: "";
+        background: url("sec2.jpg") no-repeat center center/cover;
+        position: absolute;
+        height: 80%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.9;
+    }
+    .head h1{
+        display: flex;
+        text-align: center;
+        margin-left: 400px;
+        color: rgb(171, 16, 16);
+        font-size: 2rem;
+       
+    }
+    .head p{
+        text-align: center;
+        color: black;
+    }
+    .or{
+        display: flex;
+        position: relative;
+       justify-content: center;
+        font-size: 2.5rem;
+          color: white;
+          cursor: pointer;
+          background-color: rgb(100, 0, 37);
+          width: fit-content;
+          border-radius: 10px;
+          margin-top: 13px;
+          margin-left: 550px;
+    }
+    .or a{
+        text-decoration: none;
+          list-style: none;
+          color: white;
+    }
+    
+    .bim{
+        display:inline-block;
+        position: relative;
+        margin-top: 400px;
+        align-items: center;
+    }
+    .box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgba(167, 13, 13, 0.332);
+        margin-right: 1px;
+        position: center;
+        background-color: rgb(100, 0, 37);
+        border-radius: 10px;
+    
+    }
+    #item1 img{
+        position: relative;
+        height: 150px;
+        width: 200px;
+        padding-top: 30px;
+        border-radius: 15px;
+        margin-left: 80px;
+        margin-right: 80px;
+        cursor: pointer;
+        
+    }
+    #item1 h2{
+        position: relative;
+        display: flex;
+        margin-left: 80px;
+        margin-right: 80px;
+        cursor: pointer;
+        color: white;
+        
+    }
+    .lst::before{
+        content: "";
+        background: url("back4.jpg") no-repeat center center/cover;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.4;
+        margin-top: 80px;
+        
+    }
+    
